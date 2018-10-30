@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url(../fonts/samsungsharpsans.otf); }
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.otf); }
+@font-face {
+  font-family: "Poppins - Semi Bold";
+  src: url(../fonts/Poppins-SemiBold.otf); }
+body {
+  margin: 0;
+  background-image: url("../images/backBody@4x.svg"); }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p {
+    padding: 0; }
+
+.blogSlider {
+  width: 100%;
+  padding: 40px 0; }
+  .blogSlider .carousel {
+    margin: auto;
+    width: 80%; }
+    .blogSlider .carousel .carousel-inner {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      background-color: #ffffff; }
+      .blogSlider .carousel .carousel-inner .carousel-item {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 30px 0; }
+        .blogSlider .carousel .carousel-inner .carousel-item .image {
+          text-align: center;
+          margin-right: 20px;
+          display: inline-block;
+          float: left; }
+          .blogSlider .carousel .carousel-inner .carousel-item .image img {
+            width: 100%; }
+        .blogSlider .carousel .carousel-inner .carousel-item .textRight {
+          padding-top: 5px; }
+          .blogSlider .carousel .carousel-inner .carousel-item .textRight h2 {
+            color: #b3a268;
+            font-family: "Poppins - Semi Bold";
+            font-size: 18px;
+            font-weight: 400; }
+          .blogSlider .carousel .carousel-inner .carousel-item .textRight .title {
+            color: #bcbcbc;
+            font-family: Poppins-Regular;
+            font-size: 18px;
+            font-weight: 400; }
+          .blogSlider .carousel .carousel-inner .carousel-item .textRight .text {
+            color: #444444;
+            font-family: Poppins-Regular;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px; }
+  .blogSlider .carousel-indicators {
+    margin-top: 20px; }
+    .blogSlider .carousel-indicators .active {
+      background-color: #967e2e; }
+    .blogSlider .carousel-indicators li {
+      width: 15px;
+      height: 15px;
+      border: 1px solid #967e2e;
+      border-radius: 50%; }
+
+.service {
+  width: 100%;
+  padding: 40px 0; }
+  .service .boxService {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-flow: wrap; }
+    .service .boxService .service-item {
+      position: relative;
+      padding: 10px 0;
+      text-align: center; }
+      .service .boxService .service-item img {
+        width: 80%; }
+      .service .boxService .service-item .icon {
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        top: 24%; }
+        .service .boxService .service-item .icon:nth-child(even) {
+          transform: rotate(0deg); }
+      .service .boxService .service-item h6 {
+        margin-top: 10px;
+        color: #444444;
+        font-family: "Samsung Sharp Sans";
+        font-size: 24px; }
+      .service .boxService .service-item:nth-child(even) img {
+        transform: rotate(22deg); }
+
+.team {
+  width: 100%;
+  padding: 40px 0; }
+  .team .boxTeam {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-flow: wrap; }
+    .team .boxTeam .leftCompany {
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      flex-flow: wrap; }
+      .team .boxTeam .leftCompany .company-item {
+        padding: 0; }
+        .team .boxTeam .leftCompany .company-item img {
+          width: 100%; }
+      .team .boxTeam .leftCompany .left {
+        padding-right: 15px; }
+      .team .boxTeam .leftCompany .mhm {
+        text-align: center; }
+        .team .boxTeam .leftCompany .mhm img {
+          width: 70%; }
+    .team .boxTeam .rightTeams .porgress img {
+      width: 30%; }
+
+.footer {
+  width: 100%;
+  height: 51px;
+  text-align: center;
+  background-color: #967e2e;
+  opacity: 0.8; }
+  .footer .box-footer {
+    width: 80%;
+    margin: 0 auto; }
+    .footer .box-footer p {
+      color: #ffffff;
+      font-family: Poppins;
+      font-size: 12px;
+      padding-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */

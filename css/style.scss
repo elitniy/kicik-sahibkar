@@ -1,0 +1,199 @@
+
+
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url(../fonts/samsungsharpsans.otf); }
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.otf); }
+
+@font-face {
+  font-family: "Poppins - Semi Bold";
+  src: url(../fonts/Poppins-SemiBold.otf); }
+
+body{
+	margin: 0;
+	background-image: url('../images/backBody@4x.svg');
+
+	h1,h2,h3,h4,h5,h6,p,{
+		padding: 0;
+	}
+}
+$fullwidth:100%;
+// Navigation Variables
+$content-width: 80%;
+$breakpoint: 990px;
+$nav-height: 70px;
+$nav-font-color: #444444;
+$link-hover-color: #2581DC;
+// Outer navigation wrapper
+
+.blogSlider{
+	width: $fullwidth;
+	padding: 40px 0;
+	.carousel{
+		margin: auto;
+		width: $content-width;
+		.carousel-inner{
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+			border-radius: 5px;
+			background-color: #ffffff;
+			.carousel-item{
+				display: flex;
+				justify-content:center;
+				justify-content:space-around;
+				flex-direction:row;
+				padding: 30px 0;
+				.image{
+					text-align: center;
+					margin-right: 20px;
+					img{
+						width: 100%;
+					}
+					display: inline-block;
+					float: left;
+				}
+				.textRight{
+					padding-top: 5px;
+					h2{
+						color: #b3a268;
+						font-family: "Poppins - Semi Bold";
+						font-size: 18px;
+						font-weight: 400;
+					}
+					.title{
+						color: #bcbcbc;
+						font-family: Poppins-Regular;
+						font-size: 18px;
+						font-weight: 400;
+					}
+					.text{
+						color: #444444;
+						font-family: Poppins-Regular;
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 28px;
+					}
+				}
+			}
+		}
+	}
+	.carousel-indicators{
+		    margin-top: 20px;
+		    .active{
+		    	background-color: #967e2e;
+		    }
+		li{
+			width: 15px;
+		 	height: 15px;
+		 	border:1px solid #967e2e;
+		 	border-radius: 50%;
+		}
+	}
+}
+.service{
+	width: $fullwidth;
+	padding: 40px 0;
+	.boxService{
+		margin: 0 auto;
+		padding: 0;
+		width: $content-width;
+		display: flex;
+		justify-content: center;
+		justify-content: space-around;
+		flex-flow: wrap;
+		.service-item{
+			position: relative;
+			padding: 10px 0;
+			text-align: center;
+			img{
+				width: 80%;
+			}
+			.icon{
+				position: absolute;
+				width: 30%;
+				left: 35%;
+    			top: 24%;
+    			&:nth-child(even) {
+			   	transform: rotate(0deg);
+			}
+			}
+			h6{
+				margin-top:10px;
+				color: #444444;
+				font-family: "Samsung Sharp Sans";
+				font-size: 24px;
+			}
+			&:nth-child(even) {
+			   img{
+			   	transform: rotate(22deg);
+			   }
+			}
+		}
+	}
+}
+.team{
+	width: $fullwidth;
+	padding: 40px 0;
+	.boxTeam{
+		margin: 0 auto;
+		padding: 0;
+		width: $content-width;
+		display: flex;
+		justify-content: center;
+		justify-content: space-around;
+		flex-flow: wrap;
+		.leftCompany{
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			justify-content: space-around;
+			flex-flow: wrap;
+			.company-item{
+				padding: 0;
+				
+				img{
+					width: 100%;
+				}
+			}
+			.left{
+				padding-right: 15px;
+			}
+			.mhm{
+				text-align: center;
+				img{
+					width: 70%;
+				}
+			}
+			.callCenter{
+
+			}
+		}
+		.rightTeams{
+			.porgress{
+				img{
+					width: 30%;
+				}
+			}
+		}
+	}
+}
+.footer{
+	width: $fullwidth;
+	height: 51px;
+	text-align: center;
+	background-color: #967e2e;
+	opacity: 0.8;
+	.box-footer{
+		width: $content-width;
+		margin: 0 auto;
+		p{
+			color: #ffffff;
+			font-family: Poppins;
+			font-size: 12px;
+			padding-top: 15px;
+		}
+	}
+
+}
